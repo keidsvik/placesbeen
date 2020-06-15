@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>P L A C E S</title>
-</head>
-<body>
-  <h1>Places We've Been</h1>
-  <h2>Add a place!</h2>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>P L A C E S</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Places We've Been</h1>
+      <h2>Add a place!</h2>
+      <div class="row">
+        <div class="col-md-6">
+        <form id="new-place">
+          <div class="form-group">
+            <label for="new-place-name">Place:</label>
+            <input type="text" id="new-place-name"><br>
+          </div>
+          <div class="form-group">
+            <label for="new-landmark">Landmarks:</label>
+            <input type="text" id="new-landmark"><br>
+          </div>
+          <div class="form-group">
+            <label for="new-time-of-year">Best time of year to visit:</label>
+            <input type="text" id="new-time-of-year"><br>
+          </div>
+          <div class="form-group">
+            <label for="new-notes">Additional notes:</label>
+            <input type="text" id="new-notes"><br>
+          </div>
+          <button type="submit">Add place</button>
+          </div> 
+        </form>
 
-  <form id="new-place">
-    <label for="new-place-name">Place:</label>
-    <input type="text" id="new-place-name">
-    <label for="new-landmark">Landmarks:</label>
-    <input type="text" id="new-landmark">
-    <label for="new-time-of-year">Best time of year to visit:</label>
-    <input type="text" id="new-time-of-year">
-    <label for="new-notes">Additional notes:</label>
-    <input type="text" id="new-notes">
-    <button type="submit">Add place</button>
-  </form>
-
-  <h2>Places:</h2>
-  <ul id="places">
-  </ul>
-
-  <div id="show-place">
-    <p><span class="your-place"> </span></p>
-  </div>
-</body>
+        <h2>Places:</h2>
+        <ul id="places">
+        </ul>
+    </div>
+    <div class="col-md-6">
+      <div id="show-place">
+        <p>Place: <span class="place-name"></span></p>
+        <p>Landmark: <span class="landmark"></span></p>
+        <p>Time of year: <span class="timeofyear"></span></p>
+        <p>Notes: <span class="notes"></span></p>
+        <div id="buttons">
+      </div>
+    </div>
+    </div>
+    </div>
+  </body>
 </html>

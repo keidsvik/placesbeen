@@ -9,16 +9,9 @@
 A webpage that keeps track of all the places you've been that displays all of the properties of said place when the place is clicked on.
 
 ## Specs
-When the name of a place is clicked on, fun facts about the place show up under the name.
-* Input: *click* Place Name
-* Output: Place Name
-* Location
-* Landmark
-* Time of Year
-* Fun facts
 The user is able to fill out a form with information about a destination and return an output with all information about their destination.
-* Input:
-* Output: 
+* Input: Portland, Big Pink, 2020, It's pretty great!
+* Output: Portland
 The user is able to expand and collapse the destination information
 * Input:
 * Output: 
