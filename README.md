@@ -9,9 +9,14 @@
 A webpage that keeps track of all the places you've been that displays all of the properties of said place when the place is clicked on.
 
 ## Specs
-TEXT
-* Input:
-* Output: 
+When the name of a place is clicked on, fun facts about the place show up under the name.
+* Input: *click* Place Name
+* Output: Place Name
+* Location
+* Landmark
+* Time of Year
+* Fun facts
+
 TEXT
 * Input:
 * Output: 
