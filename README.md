@@ -16,11 +16,10 @@ When the name of a place is clicked on, fun facts about the place show up under 
 * Landmark
 * Time of Year
 * Fun facts
-
-TEXT
+The user is able to fill out a form with information about a destination and return an output with all information about their destination.
 * Input:
 * Output: 
-TEXT
+The user is able to expand and collapse the destination information
 * Input:
 * Output: 
 TEXT
@@ -30,13 +29,13 @@ TEXT
 ## Setup/Installation Requirements
 
 #### Open by downloading:
-1. Download or clone this repository from GitHub [here](https://github.com/keidsvik/independent-project-06052020)
+1. Download or clone this repository from GitHub [here](https://github.com/keidsvik/placesbeen.git)
 2. Once on your machine, double-click on index.html to open in your default browser.
 
 #### Open with Bash/GitBash:
 1. Clone this repository onto your computer
-`https://github.com/keidsvik/independent-project-06052020`
-2. Navigate to the `independent-project-06052020` directory in your preferred text editor:
+`https://github.com/keidsvik/placesbeen.git`
+2. Navigate to the `placesbeen` directory in your preferred text editor:
 `code`.
 3. Open index.html in preferred browser:
 `open index.html`
@@ -59,4 +58,4 @@ _Email no one with any questions, comments, or concerns._
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2020 **_Kelly Eidsvik_**
+Copyright (c) 2020 **_Kelly Eidsvik_** & **_Lizzie Van Hook_**
